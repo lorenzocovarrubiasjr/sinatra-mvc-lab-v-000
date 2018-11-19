@@ -1,7 +1,7 @@
 class PigLatinizer
   attr_accessor :user_phrase
   
-  def user_phrase_piglatinizer(user_phrase)
+  def piglatinize(user_phrase)
     @user_phrase = user_phrase
     piglatinized_phrase = []
     @words = @user_phrase.split(' ')
